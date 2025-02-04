@@ -6,7 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 const blogPosts = [
   {
     title: "Getting Started with Next.js",
-    description: "Learn the basics of Next.js and why it's a great choice for your next web project.",
+    description: "Learn the basics of Next.js and why it&apos;s a great choice for your next web project.",
   },
   {
     title: "Introduction to Machine Learning",

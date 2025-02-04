@@ -41,7 +41,7 @@ export default function Home() {
                 I delved deeper into the world of programming, I discovered my passion for AI and machine learning.
               </p>
               <p className="text-gray-300">
-                Currently, I'm working on projects that bridge the gap between web development and AI, while improving
+                Currently, Im working on projects that bridge the gap between web development and AI, while improving
                 my skills in data structures and algorithms.
               </p>
             </GlassCard>
@@ -134,7 +134,7 @@ export default function Home() {
               </form>
             </GlassCard>
             <GlassCard className="flex flex-col justify-center">
-              <h3 className="text-xl font-semibold mb-4">Let's Connect</h3>
+              <h3 className="text-xl font-semibold mb-4">Let&apos;s Connect</h3>
               <p className="text-gray-400 mb-4">Feel free to reach out for collaborations or just a friendly chat.</p>
               <div className="space-y-2 text-gray-300">
                 <p>📧 email@example.com</p>

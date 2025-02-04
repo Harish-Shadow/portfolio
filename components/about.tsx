@@ -21,7 +21,7 @@ export default function About() {
       >
         {[
           "My journey in tech began with web development, where I honed my skills the MERN stack and Next.js. As delved deeper into world of programming, discovered passion for AI machine learning.",
-          "Currently, I'm working on projects that bridge the gap between web development and AI. learning Python for data science machine learning, while also improving my skills in structures algorithms.",
+          "Currently, I&apos;m working on projects that bridge the gap between web development and AI. learning Python for data science machine learning, while also improving my skills in structures algorithms.",
           "My goal is to become a full-stack AI developer, capable of building intelligent web applications that leverage the power machine learning solve real-world problems.",
         ].map((paragraph, index) => (
           <motion.p
