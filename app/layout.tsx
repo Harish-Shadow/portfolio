@@ -1,9 +1,12 @@
 import "./globals.css"
-import { Inter } from "next/font/google"
+import { Roboto } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import type React from "react" // Added import for React
+import type React from "react"
 
-const inter = Inter({ subsets: ["latin"] })
+const roboto = Roboto({
+  weight: ["300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+})
 
 export const metadata = {
   title: "Harish - Web Developer & AI/ML Enthusiast",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark scroll-smooth">
-      <body className={`${inter.className} bg-[#0a1120]`}>
+      <body className={`${roboto.className} bg-background text-foreground antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           {children}
         </ThemeProvider>
