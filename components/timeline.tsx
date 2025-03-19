@@ -25,7 +25,7 @@ const timelineData: TimelineItem[] = [
     company: "The Reciprocal Solutions",
     period: "2023",
     description:
-      "Led the development of full-stack web applications using MERN stack and Next.js. Implemented responsive designs optimized performance for better user experience.",
+      "Led the development of full-stack web applications using MERN stack and Next.js. Implemented responsive designs and optimized performance for better user experience.",
     skills: ["React", "Node.js", "MongoDB", "Next.js", "TypeScript", "Tailwind CSS"],
     icon: <Code2 className="w-6 h-6" />,
     color: "from-blue-400 to-cyan-400",
@@ -36,7 +36,7 @@ const timelineData: TimelineItem[] = [
     company: "Codesoft",
     period: "2022",
     description:
-      "Developed and maintained Java applications using Spring Boot. Collaborated with senior developers on various projects learned about software development lifecycle.",
+      "Developed and maintained Java applications using Spring Boot. Collaborated with senior developers on various projects and learned about software development lifecycle.",
     skills: ["Java", "Spring Boot", "MySQL", "REST APIs", "Git", "Agile"],
     icon: <Briefcase className="w-6 h-6" />,
     color: "from-purple-400 to-pink-400",
@@ -47,7 +47,7 @@ export default function Timeline() {
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start", "end start"],
+    offset: ["start start", "end start"],
   })
 
   // Create individual transforms for each animation property
@@ -115,7 +115,7 @@ export default function Timeline() {
 
             {timelineData.map((item, index) => (
               <motion.div key={item.id} style={animations[index]} className="mb-32 relative z-10">
-                <GlassCard className="relative max-w-3xl mx-auto overflow-hidden group border border-neutral-200 border-white/10 hover:border-white/20 glass-card dark:border-neutral-800">
+                <GlassCard className="relative max-w-3xl mx-auto overflow-hidden group border border-white/10 hover:border-white/20 glass-card">
                   {/* Animated background gradient */}
                   <motion.div
                     className={`absolute inset-0 bg-gradient-to-br ${item.color} opacity-5`}

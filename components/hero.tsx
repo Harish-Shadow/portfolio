@@ -22,7 +22,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            HELLO, I'M
+            HELLO, I&apos;M
           </motion.span>
 
           <motion.h1
@@ -130,7 +130,7 @@ export default function Hero() {
 
             {/* Image */}
             <div className="absolute inset-4 rounded-full overflow-hidden bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm p-2">
-              <div className="w-full h-full rounded-full overflow-hidden border border-neutral-200 border-white/10 dark:border-neutral-800">
+              <div className="w-full h-full rounded-full overflow-hidden border border-white/10">
                 <Image
                   src="/placeholder.svg"
                   alt="Harish"

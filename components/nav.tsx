@@ -83,7 +83,7 @@ export default function Nav() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            {navItems.map(({ name, href }, index) => (
+            {navItems.map(({ name, href }) => (
               <div key={name} className="relative">
                 <Link
                   href={href}
@@ -116,7 +116,7 @@ export default function Nav() {
         } flex-col items-center justify-center`}
       >
         <div className="flex flex-col items-center space-y-6">
-          {navItems.map(({ name, href }, index) => (
+          {navItems.map(({ name, href }) => (
             <div key={name}>
               <Link
                 href={href}

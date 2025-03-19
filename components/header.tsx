@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <motion.header
-      className="py-6 px-4 sticky top-0 z-50 backdrop-blur-sm bg-white/80 dark:bg-neutral-950/80"
+      className="py-6 px-4 sticky top-0 z-50 backdrop-blur-sm bg-background/80"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -34,7 +34,7 @@ export default function Header() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link href={`#${item}`} className="hover:text-neutral-900 transition-colors dark:hover:text-neutral-50">
+              <Link href={`#${item}`} className="hover:text-primary transition-colors">
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </Link>
             </motion.li>

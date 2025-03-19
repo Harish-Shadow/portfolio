@@ -138,7 +138,7 @@ function SkillBar({ skill }: { skill: Skill }) {
           {[...Array(5)].map((_, i) => (
             <Star
               key={i}
-              className={`w-4 h-4 ${i < filledStars ? getStarColor(skill.color) + "fill-current" : "text-gray-600"}`}
+              className={`w-4 h-4 ${i < filledStars ? getStarColor(skill.color) + " fill-current" : "text-gray-600"}`}
             />
           ))}
         </div>

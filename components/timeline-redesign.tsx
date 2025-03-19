@@ -24,7 +24,7 @@ const timelineData: TimelineItem[] = [
     company: "The Reciprocal Solutions",
     period: "2023",
     description:
-      "Led the development of full-stack web applications using MERN stack and Next.js. Implemented responsive designs optimized performance for better user experience.",
+      "Led the development of full-stack web applications using MERN stack and Next.js. Implemented responsive designs and optimized performance for better user experience.",
     skills: ["React", "Node.js", "MongoDB", "Next.js", "TypeScript", "Tailwind CSS"],
     icon: <Code2 className="w-6 h-6" />,
     color: "from-blue-400 to-cyan-400",
@@ -35,7 +35,7 @@ const timelineData: TimelineItem[] = [
     company: "Codesoft",
     period: "2022",
     description:
-      "Developed and maintained Java applications using Spring Boot. Collaborated with senior developers on various projects learned about software development lifecycle.",
+      "Developed and maintained Java applications using Spring Boot. Collaborated with senior developers on various projects and learned about software development lifecycle.",
     skills: ["Java", "Spring Boot", "MySQL", "REST APIs", "Git", "Agile"],
     icon: <Briefcase className="w-6 h-6" />,
     color: "from-purple-400 to-pink-400",
@@ -46,7 +46,7 @@ const timelineData: TimelineItem[] = [
     company: "Tech Innovators",
     period: "2021",
     description:
-      "Designed and implemented responsive user interfaces for web applications. Collaborated with UX designers to create intuitive visually appealing experiences.",
+      "Designed and implemented responsive user interfaces for web applications. Collaborated with UX designers to create intuitive and visually appealing experiences.",
     skills: ["HTML/CSS", "JavaScript", "React", "UI/UX", "Figma", "Bootstrap"],
     icon: <Code2 className="w-6 h-6" />,
     color: "from-emerald-400 to-teal-400",
@@ -65,7 +65,7 @@ export default function TimelineRedesign() {
           }
         })
       },
-      { threshold: 0.1, rootMargin: "0px -100px" },
+      { threshold: 0.1, rootMargin: "0px 0px -100px 0px" },
     )
 
     const timelineItems = document.querySelectorAll(".timeline-item")
@@ -86,7 +86,7 @@ export default function TimelineRedesign() {
         <div className="text-center mb-16 opacity-0 animate-fade-in">
           <span className="text-cyan-400 text-sm font-semibold tracking-wider uppercase">Experience</span>
           <h2 className="text-4xl font-bold mt-2 mb-4">
-            Professional{""}
+            Professional{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Journey</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto rounded-full"></div>

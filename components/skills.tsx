@@ -134,7 +134,7 @@ export default function Skills() {
       </motion.div>
 
       <div className="space-y-12">
-        {Object.entries(skillCategories).map(([category, skills], categoryIndex) => (
+        {Object.entries(skillCategories).map(([category, skills]) => (
           <motion.div
             key={category}
             initial="hidden"
@@ -151,7 +151,7 @@ export default function Skills() {
               </motion.h3>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                {skills.map((skill, index) => (
+                {skills.map((skill) => (
                   <motion.div
                     key={skill.name}
                     variants={itemVariants}

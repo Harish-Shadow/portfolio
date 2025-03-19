@@ -11,6 +11,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "Harish - Web Developer & AI/ML Enthusiast",
   description: "Personal portfolio of Harish, a Web Developer and AI/ML enthusiast",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -29,3 +30,6 @@ export default function RootLayout({
   )
 }
 
+
+
+import './globals.css'

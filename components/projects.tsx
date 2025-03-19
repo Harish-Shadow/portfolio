@@ -98,7 +98,7 @@ export default function Projects() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <motion.div
             key={project.title}
             variants={itemVariants}
@@ -155,7 +155,7 @@ export default function Projects() {
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span key={tag} className="px-2 py-1 text-xs rounded-full bg-white/5 border border-neutral-200 border-white/10 dark:border-neutral-800">
+                    <span key={tag} className="px-2 py-1 text-xs rounded-full bg-white/5 border border-white/10">
                       {tag}
                     </span>
                   ))}

@@ -30,7 +30,7 @@ export default function OrbitalSkills() {
       {[1, 2, 3].map((orbit) => (
         <div
           key={orbit}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-neutral-200 border-white/10 dark:border-neutral-800"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10"
           style={{
             width: `${orbit * 150}px`,
             height: `${orbit * 150}px`,
@@ -59,7 +59,7 @@ export default function OrbitalSkills() {
               top: `-${skill.orbit * 75}px`,
             }}
           >
-            <div className="absolute -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-gray-800/50 backdrop-blur-md rounded-full flex items-center justify-center border border-neutral-200 border-white/10 dark:border-neutral-800">
+            <div className="absolute -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-gray-800/50 backdrop-blur-md rounded-full flex items-center justify-center border border-white/10">
               <span className="text-2xl">{skill.icon}</span>
             </div>
           </motion.div>

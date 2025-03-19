@@ -98,7 +98,7 @@ export default function About() {
               transition={{ delay: 0.4, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              Currently, I'm working on projects that bridge the gap between web development and AI. I'm learning Python
+              Currently, I&apos;m working on projects that bridge the gap between web development and AI. I&apos;m learning Python
               for data science and machine learning, while also improving my skills in data structures and algorithms.
             </motion.p>
           </GlassCard>
@@ -111,7 +111,7 @@ export default function About() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <motion.div key={feature.title} variants={itemVariants} className="glass-card">
               <GlassCard className="h-full hover:border-white/20 transition-colors">
                 <div className="mb-4 p-3 rounded-lg bg-white/5 w-fit">{feature.icon}</div>
@@ -136,7 +136,7 @@ export default function About() {
           { label: "Coding Hours", value: "1000+" },
           { label: "Satisfied Clients", value: "15+" },
           { label: "GitHub Contributions", value: "500+" },
-        ].map((stat, index) => (
+        ].map((stat) => (
           <motion.div key={stat.label} variants={itemVariants} className="glass-card">
             <GlassCard className="text-center">
               <div className="text-3xl font-bold gradient-text bg-gradient-to-r from-blue-400 to-purple-400 mb-2">

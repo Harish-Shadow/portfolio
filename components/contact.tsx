@@ -47,10 +47,10 @@ export default function Contact() {
             className="text-5xl font-bold mt-2 mb-4 gradient-text bg-gradient-to-r from-blue-400 to-purple-400"
             variants={itemVariants}
           >
-            Let's Work Together
+            Let&apos;s Work Together
           </motion.h2>
           <motion.p className="text-gray-400 max-w-2xl mx-auto" variants={itemVariants}>
-            Feel free to reach out if you're looking to hire, just want to connect or see if we can build something
+            Feel free to reach out if you&apos;re looking to hire, just want to connect or see if we can build something
             amazing together.
           </motion.p>
         </motion.div>
@@ -141,7 +141,7 @@ export default function Contact() {
                     type="text"
                     id="name"
                     placeholder="John Doe"
-                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-neutral-200 border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors dark:border-neutral-800"
+                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors"
                   />
                 </div>
                 <div>
@@ -152,7 +152,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     placeholder="john@example.com"
-                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-neutral-200 border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors dark:border-neutral-800"
+                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors"
                   />
                 </div>
                 <div>
@@ -163,7 +163,7 @@ export default function Contact() {
                     id="message"
                     placeholder="Hello, I'd like to talk about..."
                     rows={4}
-                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-neutral-200 border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors dark:border-neutral-800"
+                    className="w-full p-3 rounded-lg bg-gray-800/50 border border-white/10 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors"
                   />
                 </div>
                 <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 btn-hover">
